@@ -1,0 +1,6 @@
+# myconfig.py:
+
+APPKEY = ''
+TOKEN = ''
+BOARD_ID = ''
+LIST_ID = ''
