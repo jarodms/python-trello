@@ -1,1 +1,33 @@
-"# python-trello" 
+
+# Get Started
+pip install py-trello
+
+*However, `pip install` is behind the what GitHub has. If you find issues, you may want to use the latest source from  
+https://github.com/sarumont/py-trello/tree/master/trello*
+
+
+
+# Trello API Setup
+
+* Go to: https://trello.com/1/appKey/generate
+  * Get your APPKEY
+  * Get your TOKEN
+* Find your Board ID (it's in the URL when you are viewing the Board)
+* Rename `myconfig.py.sample` to `myconfig.py`
+* Place thes APPKEY, TOKEN, and BOARDID in `myconfig.py`
+
+
+# Example scripts
+1. `python get_board_details.py`
+    * Get the List names and the list ID's of your Board
+2. `python add_card.py`
+    * Prompts you for `Card Label` and a `Description`
+    * A new card is added to the first list in your Board
+        * If you would prefer your cards to go to a different list, use `get_board_details` and copy the list id into __myconfig.py__ to setting __LIST_ID__
+
+
+
+# More 
+Look here to figure out API
+https://github.com/sarumont/py-trello/tree/master/trello
+
